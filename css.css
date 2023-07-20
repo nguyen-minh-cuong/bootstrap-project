@@ -2,7 +2,6 @@
 body:before {
   background:url('blue1.jpg') no-repeat;
   background-size:cover;
-  display: block; 
   content:""; 
   position: fixed;
   z-index:-1;

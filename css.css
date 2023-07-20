@@ -4,22 +4,23 @@ body:before {
   background-size:cover;
   display: block; 
   content:""; 
-  position: absolute;
+  position: fixed;
   z-index:-1;
   top:0; left: 0; right: 0; height: 100%;
   opacity:0.9;
 }
 .text {
-  font-size: 30px;
-  margin-top:20px;
+  font-size: 110%;
+  margin-top:1%;
   font-family:"Lucida Console",monospace;
 }
 .btn-group{
-  margin-top:100px;
+  margin-top:10%;
 }
 .btn{
-  font-size:20px;
+  font-size:90%;
   font-weight:bold;
-  border-radius:20px;
-  padding:40px;
+  border-radius:10%;
+  padding-top: 5%;
+  padding-bottom:5%;
 }

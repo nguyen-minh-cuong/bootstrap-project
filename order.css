@@ -8,3 +8,13 @@ body:before {
   top:0; left: 0; right: 0; height: 100%;
   opacity:0.9;
 }
+#myForm {
+  margin-top:-5%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+#email,#phoneNumber {
+}
+.form-select {
+  text-align:center;
+}

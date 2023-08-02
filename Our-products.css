@@ -1,5 +1,5 @@
 body:before{
-  background-color: #FAEBD7;
+  background-color: #FFFAFA;
   content:""; 
   position: fixed;
   top:0; left: 0; right: 0; height: 100%;
@@ -41,7 +41,7 @@ body:before{
   flex-direction:column;
 }
 .color{
-  color:red;
+  color:#DC143C;
 }
 .img{
   border-style:solid ;

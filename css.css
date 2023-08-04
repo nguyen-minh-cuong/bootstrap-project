@@ -8,18 +8,49 @@ body:before {
   top:0; left: 0; right: 0; height: 100%;
   opacity:0.9;
 }
+#nav{
+  z-index:1;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#flex-container{
+  margin-top:150px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  row-gap:30px;
+}
+#text-container{
+  
+}
+
+#btn-container{
+  margin-top:60px;
+}
+
+#img-container{
+  margin-top:120px;
+}
 .text {
-  font-size: 120%;
-  margin-top:1%;
+  text-align:center;
+  color:white;
+  font-size:120%;
   font-family:"Lucida Console",monospace;
 }
-.btn-group{
-  margin-top:10%;
+.text2 {
+  margin-top:20px;
+  text-align:center;
+  color:white;
+  font-size: 120%;
+  font-family:"Lucida Console",monospace;
 }
+
 .btn{
-  font-size:90%;
+  font-size:130%;
   font-weight:bold;
-  border-radius:10%;
+  border-radius:10px;
   padding-top: 5%;
   padding-bottom:5%;
 }

@@ -11,51 +11,50 @@
     </style>
   </head>
   <body>
-    <nav class="navbar  navbar-expand-sm navbar-dark text-bg-primary">
+    <nav id="nav" class="navbar  navbar-expand-sm navbar-dark text-bg-primary">
       <div class="container">
-        <div class="navbar-brand">Home</div>
+        <div class="navbar-brand">Trang chủ</div>
         <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapse">
           <div class="navbar-toggler-icon"></div>
         </button>
         <div id="collapse" class="collapse navbar-collapse">
           <ul class="navbar-nav">
             <li class="navbar-item">
-              <a  class="nav-link"href="order.html">Order</a>
+              <a  class="nav-link"href="order.html">Đặt hàng</a>
             </li>
             <li class="navbar-item">
-              <a  class="nav-link"href="Our-products.html"> Our products</a>
+              <a  class="nav-link"href="Our-products.html">Sản phẩm</a>
             </li>
             <li class="navbar-item">
-              <a  class="nav-link"href="#">About us</a>
+              <a  class="nav-link"href="about-us.html">Doanh nghiệp</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    
-    <div style="color:white;
-    text-align:center;
-    margin-top:10%" class="container justify-content-center">
-     <div class="text">
-       Welcome to Tuan Thanh door manufacturer, the most famous brand in TanHiep Town
-     </div>
-     
-     <div class="text">
-       A strong door makes you feel safe. Order  now at our shop !
-     </div>
-     <div class="btn-group">
+    <div id="flex-container">
+      
+      <div id="text-container" class="container">
+       <div class="text">
+         Kính chào quý khách đến với Cửa sắt Tuấn Thành
+       </div>
+       <div class="text2">
+        Một chiếc cửa vững chắc làm căn nhà của bạn thêm an toàn. Hãy đặt cửa tại xưởng chúng tôi ngay!
+       </div>
+      </div>
+      <div id="btn-container" class="btn-group">
        
      <button onclick="window.location.href ='order.html'"  class="btn btn-danger"> 
-      <a  class="nav-link"href="order.html">Order</a>
+      <a  class="nav-link"href="order.html">Đặt hàng</a>
      </button>
-     <button class="btn btn-secondary"> Guild lines</button>
-     <button class="btn btn-warning"> RATING</button>
-     <button class="btn btn-info"> CUSTOM</button>
      
-     </div>
-    </div>
+     <button onclick="window.location.href ='order.html'"  class="btn btn-warning"> 
+      <a  class="nav-link"href="order.html">Hướng dẫn</a>
+     </button>
     
-    <div style="margin-top:150px; "class="container-fluid">
+     </div>
+     
+      <div id="img-container"class="container-fluid">
     <div class="row row-cols-2 row-cols-md-4  g-3 ">
       
       <div  style="height:400px;
@@ -63,11 +62,11 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5> Xinfa</h5>
+         <h5>Cửa Xingfa</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="xinfa.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="Our-products.html#1"> learn more</a>
+         <a style="color:white;" href="Our-products.html#1">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
@@ -77,11 +76,11 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5> Aluminium </h5>
+         <h5> Cửa nhôm cỏ </h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="cua-nhom.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="Our-products.html#2"> learn more</a>
+         <a style="color:white;" href="Our-products.html#2">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
@@ -91,11 +90,11 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5> Steel</h5>
+         <h5>Cửa sắt</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="cua-sat.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="Our-products.html#3"> learn more</a>
+         <a style="color:white;" href="Our-products.html#3">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
@@ -105,11 +104,11 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5>Gate</h5>
+         <h5>Cổng</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="cong.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="Our-products.html#4"> learn more</a>
+         <a style="color:white;" href="Our-products.html#4">Tìm hiểu thêm </a>
         </div>
      </div>
       </div>
@@ -119,11 +118,11 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5>Fence</h5>
+         <h5>Hàng rào</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="fence.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="Our-products.html#5"> learn more</a>
+         <a style="color:white;" href="Our-products.html#5">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
@@ -133,39 +132,39 @@
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5>Address</h5>
-       </div>
-       <img style="height:70%;" class="card-img-top" src="address.jpg">
-        <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="#"> learn more</a>
-        </div>
-     </div>
-      </div>
-      
-      <div  style="height:400px;
-      margin-bottom:100px"class="col">
-     <div style="height:100%;" class="card text-bg-primary border-3">
-       <div style="height:15%;
-       text-align:center;"class="card-header">
-         <h5>Workplace</h5>
+         <h5>Xưởng cửa</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="workplace.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="#"> learn more</a>
+         <a style="color:white;" href="about-us.html#workplace">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
+      <div  style="height:400px;
+      margin-bottom:100px"class="col">
+     <div style="height:100%;" class="card text-bg-primary border-3">
+       <div style="height:15%;
+       text-align:center;"class="card-header">
+         <h5>Địa chỉ</h5>
+       </div>
+       <img style="height:70%;" class="card-img-top" src="address.jpg">
+        <div style="height:15%;text-align:center" class="card-footer">
+         <a style="color:white;" href="about-us.html#address">Tìm hiểu thêm</a>
+        </div>
+     </div>
+      </div>
+      
       
       <div  style="height:400px;
       margin-bottom:100px"class="col">
      <div style="height:100%;" class="card text-bg-primary border-3">
        <div style="height:15%;
        text-align:center;"class="card-header">
-         <h5>The director</h5>
+         <h5>Chủ Xưởng</h5>
        </div>
        <img style="height:70%;" class="card-img-top" src="director.jpg">
         <div style="height:15%;text-align:center" class="card-footer">
-         <a style="color:white;" href="#"> learn more</a>
+         <a style="color:white;" href="about-us.html#director">Tìm hiểu thêm</a>
         </div>
      </div>
       </div>
@@ -215,6 +214,8 @@
       
     </div> -->
   </div>
+    </div>
+    
  
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js" integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS" crossorigin="anonymous"></script>

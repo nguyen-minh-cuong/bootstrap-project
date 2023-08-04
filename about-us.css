@@ -1,0 +1,96 @@
+body:before{
+  content:"";
+  z-index:-2;
+  position:fixed;
+  top:0;
+  right:0;
+  left:0;
+}
+
+#nav{
+  z-index:1;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#outer{
+  margin-top:40px;
+}
+.ex-intro{
+  padding-top:10%;
+  padding-bottom:20%;
+  position: relative;
+}
+.intro:before{
+    background-size:100% 100%;
+    z-index: -1;
+    content: '';
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    right:0;
+    position: absolute;
+    opacity: 0.35;
+}
+.intro1:before{
+    background-image:url("city.jpg");
+}
+.intro2:before{
+    background-image:url("weld-1.jpg");
+}
+.intro3:before{
+    background-image:url("workplace.jpg");
+}
+.intro4:before{
+    background-image:url("address.jpg");
+}
+.intro-text{
+  margin:5%;
+  position: relative;
+  color:#0000CD;
+  font-weight:700;
+  font-size: 3.4vw;
+}
+.open-text{
+  margin-top:10%;
+  border-style:solid;
+  border-top:none;
+  border-right:none;
+  border-left:none;
+  border-color:#0000CD;
+  color:#0000CD;
+  text-align:center;
+  font-weight:700;
+  font-size:5vw;
+  margin-bottom:10%;
+}
+.text{
+  margin-top:5%;
+  color:#0000CD;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 3.4vw;
+}
+
+.final-text{
+  margin-top:10%;
+  margin-left:5%;
+  margin-right:5%;
+  color:#0000CD;
+  text-align: center;
+  font-weight:700;
+  font-size: 4vw;
+}
+.img{
+  margin-right:10px;
+  margin-left:3px;
+  float:left;
+  height:70%;
+  width:28%;
+  border-style:solid ;
+  border-width:1px;
+  border-color:#0000CD;
+}
+  

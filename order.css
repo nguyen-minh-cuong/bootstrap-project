@@ -7,13 +7,45 @@ body:before {
   top:0; left: 0; right: 0; height: 100%;
   opacity:0.9;
 }
-#myForm {
-  margin-top:-5%;
-  margin-left: 15%;
-  margin-right: 15%;
+body{
 }
-#email,#phoneNumber {
+#nav{
+  z-index:99;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+#outer{
+  margin-top:100px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+#myForm {
+  margin-top:50px;
+  margin-left: 6vh;
+  margin-right: 6vh;
+  font-size:130%;
+}
+.float-lab{
+  color:white;
+}
+#email{
+}
+.in-float-lab{
+ font-size:80%;
 }
 .form-select {
   text-align:center;
+}
+#btn{
+  margin-top:5%;
+}
+.guide-line{
+  font-size:130%;
+  color:white;
+}
+.span1{
+  color:#DC143C;
 }

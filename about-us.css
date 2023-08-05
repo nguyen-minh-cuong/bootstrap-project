@@ -93,4 +93,46 @@ body:before{
   border-width:1px;
   border-color:#0000CD;
 }
-  
+.vd-frame{
+  display:flex;
+  justify-content:center;
+  margin-top:50px;
+}
+.vd{
+  padding:1%;
+  border-style:solid;
+  border-color:#0000CD;
+  border-width:0.01px;
+  height:24vh;
+  width:80%;
+}
+.vd-text{
+  text-align:center;
+  margin-top:5%;
+  color:#0000CD;
+  font-size: 3.4vw;
+}
+.br-text{
+  color:#0000CD;
+  margin-left:5%;
+  margin-right:5%;
+  font-size: 3.4vw;
+}
+.ad-text{
+  text-align:center;
+  color:#0000CD;
+  font-size: 3.4vw;
+  margin-top:5%;
+}
+.adr-frame{
+  display:flex;
+  justify-content:center;
+}
+.adr{
+  padding:1%;
+  border-style:solid;
+  border-color:#0000CD;
+  border-width:0.01px;
+  height:24vh;
+  width:80%;
+}

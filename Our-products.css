@@ -74,12 +74,23 @@ body:before{
   margin:3px 0 3px 0;
 }
 
-.bao-gia {
-  text-decoration:none;
-  border-style:solid;
-  border-right:none ;
-  border-top:none ;
-  border-left:none ;
-  font-size:100%;
-  margin-left:2%;
+#zalo{
+  background-image:url("https://play-lh.googleusercontent.com/rFIOt4fDSCgJh_FkHU2qP8YiZUUhfVoKoNfQFbPEM-Wl8zuyuwn7vzkEx_XMh5B6FfO3");
+  background-size:100% 100%;
+  padding:20px 20px 20px 20px;
+  border-radius:15px;
+  border:none;
+  position:fixed;
+  right:10px;
+  top:150px;
+}
+#facebook{
+  background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Facebook_logo_36x36.svg/1024px-Facebook_logo_36x36.svg.png");
+  background-size:100% 100%;
+  padding:20px 20px 20px 20px;
+  border-radius:15px;
+  border:none;
+  position:fixed;
+  right:10px;
+  top:195px;
 }

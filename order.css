@@ -27,6 +27,12 @@ body{
   margin-left: 6vh;
   margin-right: 6vh;
   font-size:2,5vw;
+  color:white;
+}
+#da-gui{
+  text-align:center;
+  font-size:5vw;
+  color:white;
 }
 .float-lab{
   color:white;

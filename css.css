@@ -54,3 +54,24 @@ body:before {
   padding-top: 5%;
   padding-bottom:5%;
 }
+.col-style {
+  height:400px;
+  margin-bottom:100px;
+}
+.card-style {
+  height:100%;
+}
+.header-style {
+ height:15%;
+ text-align:center;
+}
+.img-style{
+  height:70%;
+}
+.footer-style{
+  height:15%;
+  text-align:center;
+}
+.more-style{
+  color:white;
+}

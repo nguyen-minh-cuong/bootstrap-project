@@ -17,6 +17,8 @@
   }
   myForm.addEventListener("submit",async  (e) => {
     e.preventDefault();
+    const newDate = new Date
+    const today = newDate.toLocaleString()
     if (!myForm.checkValidity() ) 
    {myForm.classList.add("was-validated")}
   else {
@@ -25,10 +27,11 @@
     const data =  {
       phoneNumber: phoneNumber.value,
       email:email.value,
+      date: today,
       address:address.value,
       type: selectInput.value};  
   await  upLoad(data);
-   window.location.reload()
+   myForm.innerHTML ="<div id='da-gui'> Đã gửi ✓ <div> ( quý khách có thể điền lại thông tin bằng cách tải lại trang web ) </div> </div> "
   }
 })
   

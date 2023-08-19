@@ -62,4 +62,4 @@ const run = async () => {
   { ;createCard(data[i].name,data[i].src,data[i].more)}
   createBottomCard()
 }
-//run()
+run()

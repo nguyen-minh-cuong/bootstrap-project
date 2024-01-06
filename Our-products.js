@@ -25,7 +25,7 @@
 const textContainer = document.getElementById("text-container");
 const subSummary = document.getElementById("sub-summary");
  const downLoad =  async () => {
- let x = await  fetch("https://phone-number--cuongnguyen213.repl.co/products-text").then((data) => {
+ let x = await  fetch("https://941aa320-ef24-4c93-a81c-5ead594cfdea-00-3i6faog1cpfv6.global.replit.dev/products-text").then((data) => {
    return data.json()
  })
  return x

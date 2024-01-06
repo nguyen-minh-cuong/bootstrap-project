@@ -53,7 +53,7 @@ const createBottomCard  = () => {
 }
 //createCard('Cửa nhôm','https://images.unsplash.com/photo-1503614472-8c93d56e92ce?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8NXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80','Our-products.html#p2')
 const findData = async () => {
- let x = await  fetch("https://interface-data--cuongnguyen213.repl.co/",{method:"GET",headers:{accept: 'application/json'}}).then((data) => {return data.json() })
+ let x = await  fetch("https://f0cbd95e-a28c-4979-8b06-572c567e560b-00-2be7j4qe36l3r.global.replit.dev/",{method:"GET",headers:{accept: 'application/json'}}).then((data) => {return data.json() })
  return x
 }
 const run = async () => {
